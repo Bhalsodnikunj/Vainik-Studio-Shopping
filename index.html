@@ -158,14 +158,15 @@
     // Sample product data — replace these with your actual affiliate product list
     // Each product should include: id, title, description, price, image, category, affiliateUrl, merchant
      const PRODUCTS = [
-      {id:1,title:'3 pcs beautiful vase for home decor for women',desc:'',price:514,img:'https://images.meesho.com/images/products/431129895/rwoze.jpg',category:'women',affiliateUrl:'https://affiliate.meesho.com/collection/MTQzMTk4ODo6Ojo6Om5vcm1hbA==',merchant:'Prodect 1'},
-      {id:2,title:'HRX Running Shoes For Men',desc:'',price:710,img:'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/a/8/l/-original-imahgndj6dnk93z5.jpeg?q=70&amp;crop=false',category:'men',affiliateUrl:'https://fktr.in/jyoAmwV',merchant:'Prodect 2'},
-      {id:3,title:'NEW ATTRACTIVE MULTICOLOR BUTTERFLY DESIGN WATCH & 2 BRACELET COMBO FOR GIRLS & WOMEN',desc:'',price:184,img:'https://images.meesho.com/images/products/551869055/u4bg9.jpg',category:'women',affiliateUrl:'https://affiliate.meesho.com/collection/MTMzODU2Mzo6Ojo6Om5vcm1hbA==',merchant:'Prodect 3'},
-      {id:4,title:'Brass Rose Akhand Jyoti. Home and Offic diwali gift akhand Jyoti ( Set of 2)',desc:'',price:254,img:'https://images.meesho.com/images/products/612372981/phfxj_512.avif?width=512',category:'women',affiliateUrl:'https://affiliate.meesho.com/collection/MTI2NjU0Nzo6Ojo6Om5vcm1hbA==',merchant:'Prodect 4'},
-      {id:5,title:'Squash Mens light weight and stylish slipper flip flops for men',desc:'',price:204,img:'https://images.meesho.com/images/products/613318881/cta6d_512.webp',category:'men',affiliateUrl:'https://affiliate.meesho.com/collection/OTgxOTkxOjo6Ojo6bm9ybWFs',merchant:'Prodect 5'},
-      {id:6,title:'Dry Fruit Cutter and Slicer',desc:'',price:104,img:'	https://images.meesho.com/images/products/79734334/l7ub5_512.avif?width=512',category:'women',affiliateUrl:'https://affiliate.meesho.com/collection/OTg2NjE4Ojo6Ojo6bm9ybWFs',merchant:'Prodect 6'},
-      {id:7,title:'Appoxy Trendy slippers for men Walking ',desc:'',price:314,img:'https://images.meesho.com/images/products/582168097/fsu2p_512.avif?width=512',category:'men',affiliateUrl:'https://affiliate.meesho.com/collection/MTAxNDIzOTo6Ojo6Om5vcm1hbA==',merchant:'Prodect 7'},
-      {id:8,title:'SQUASH MEN SLIPPERS FLIPFLOPS LIGHTWEIGHT STYLISH QUALITYFULL SOLE SLIPPERS FOR MEN',desc:'',price:195,img:'https://images.meesho.com/images/products/630154435/eoxai_512.avif?width=512',category:'men',affiliateUrl:'https://affiliate.meesho.com/collection/MTExODMxMTo6Ojo6Om5vcm1hbA==',merchant:'Prodect 8'},
+      {id:1,title:'New & Hit Trendy Flora Planet for women',desc:'',price:146,img:'https://images.meesho.com/images/products/447038782/zlhzt_512.avif?width=512',category:'women',affiliateUrl:'https://www.meesho.com/af_invite/130369250:instagram_stories:1623260?p_id=447038782&ext_id=7e5lby&utm_source=instagram_stories',merchant:'Prodect 1'},
+      {id:2,title:'3 pcs beautiful vase for home decor for women',desc:'',price:514,img:'https://images.meesho.com/images/products/431129895/rwoze.jpg',category:'women',affiliateUrl:'https://affiliate.meesho.com/collection/MTQzMTk4ODo6Ojo6Om5vcm1hbA==',merchant:'Prodect 2'},
+      {id:3,title:'HRX Running Shoes For Men',desc:'',price:710,img:'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/a/8/l/-original-imahgndj6dnk93z5.jpeg?q=70&amp;crop=false',category:'men',affiliateUrl:'https://fktr.in/jyoAmwV',merchant:'Prodect 3'},
+      {id:4,title:'NEW ATTRACTIVE MULTICOLOR BUTTERFLY DESIGN WATCH & 2 BRACELET COMBO FOR GIRLS & WOMEN',desc:'',price:184,img:'https://images.meesho.com/images/products/551869055/u4bg9.jpg',category:'women',affiliateUrl:'https://affiliate.meesho.com/collection/MTMzODU2Mzo6Ojo6Om5vcm1hbA==',merchant:'Prodect 4'},
+      {id:5,title:'Brass Rose Akhand Jyoti. Home and Offic diwali gift akhand Jyoti ( Set of 2)',desc:'',price:254,img:'https://images.meesho.com/images/products/612372981/phfxj_512.avif?width=512',category:'women',affiliateUrl:'https://affiliate.meesho.com/collection/MTI2NjU0Nzo6Ojo6Om5vcm1hbA==',merchant:'Prodect 5'},
+      {id:6,title:'Squash Mens light weight and stylish slipper flip flops for men',desc:'',price:204,img:'https://images.meesho.com/images/products/613318881/cta6d_512.webp',category:'men',affiliateUrl:'https://affiliate.meesho.com/collection/OTgxOTkxOjo6Ojo6bm9ybWFs',merchant:'Prodect 6'},
+      {id:7,title:'Dry Fruit Cutter and Slicer',desc:'',price:104,img:'	https://images.meesho.com/images/products/79734334/l7ub5_512.avif?width=512',category:'women',affiliateUrl:'https://affiliate.meesho.com/collection/OTg2NjE4Ojo6Ojo6bm9ybWFs',merchant:'Prodect 7'},
+      {id:8,title:'Appoxy Trendy slippers for men Walking ',desc:'',price:314,img:'https://images.meesho.com/images/products/582168097/fsu2p_512.avif?width=512',category:'men',affiliateUrl:'https://affiliate.meesho.com/collection/MTAxNDIzOTo6Ojo6Om5vcm1hbA==',merchant:'Prodect 8'},
+      {id:9,title:'SQUASH MEN SLIPPERS FLIPFLOPS LIGHTWEIGHT STYLISH QUALITYFULL SOLE SLIPPERS FOR MEN',desc:'',price:195,img:'https://images.meesho.com/images/products/630154435/eoxai_512.avif?width=512',category:'men',affiliateUrl:'https://affiliate.meesho.com/collection/MTExODMxMTo6Ojo6Om5vcm1hbA==',merchant:'Prodect 9'},
       
     ];
 
@@ -323,6 +324,7 @@
   </script>
 </body>
 </html>
+
 
 
 
